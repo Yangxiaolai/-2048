@@ -1,0 +1,69 @@
+body {
+	color: #57407c;
+	background: #57407c;
+	
+}
+header {
+	display: block;
+	margin: 0 auto;
+	width: 500px;
+	text-align: center;
+}
+header #newgamebutton {
+	display: block;
+	margin: 20px auto;
+	width: 160px;
+	padding: 10px  10px;
+	background-color: #3d2963;
+	font-family: arial;
+	font-size: 20px;
+	color: white;
+	border-radius: 10px;
+	text-decoration: none;
+}
+header #newgamebutton:hover {
+	background-color: #d3386a;
+	color: rgba(255, 255, 255, 1);
+}
+header p {
+    width: 180px;
+    height: 40px;
+    background-color: #3d2963;
+    border-radius: 10px;
+    color: white;
+    line-height: 40px;
+    font-family: arial;
+	font-size: 25px;
+	margin: 20px auto;
+}
+#grid-container{
+	position: relative;
+	width: 500px;
+	height: 500px;
+	padding: 20px;
+	margin: 50px auto;
+	background-color: #3d2963;
+	border-radius: 10px;
+}
+/*每个小格子*/
+.grid-cell {
+	position: absolute;
+	left: 12px;
+	width: 107px;
+	height: 107px;
+	border-radius: 10px;
+    background-color: #ccc0bc;
+    background-image: url('images/2.gif');
+}
+.number-cell {
+    width: 107px;
+	height: 107px;
+	border-radius: 10px;
+	position: absolute;
+}
+.grid-cell img{
+	border-radius: 10px;
+}
+.number-cell img {
+	border-radius: 10px;
+}
